@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100%;
 }
 .Sans-font-family{
     font-family: "Open Sans", sans-serif;
@@ -9,6 +10,10 @@
 }
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: left, bottom right;
+    background-size: 85px auto, auto;
     padding-top: 50px;
 }
 nav{
@@ -37,6 +42,8 @@ nav ul li a{
 .orange-color{
     color:#FD6E0A;
 }
+
+/* Orange Button here */
 .orange-button{
     border: none;
     background-color:#FD6E0A;
@@ -46,5 +53,44 @@ nav ul li a{
     padding: 19px 35px;
     border-radius: 5px;
 }
+#banner{
+    margin-top: 46px;
+    margin-right: 38px;
+    margin-left: 230px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 700px;
+}
+.banner-content h2{
+    margin-bottom: 5px;
+    font-size: 45px;
+    Font-weight: 600;
+    color: #474747;
+}
+.banner-content h1{
+    font-size: 85px;
+    Font-weight: 700;
+    color: black;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #474747;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contacts{
+    display: flex;
+    gap: 30px;
+}
+.banner-image{
+    width: auto;
+    height: 660px;
+    vertical-align: middle;
+}
+
 
 
