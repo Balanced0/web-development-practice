@@ -91,6 +91,46 @@ nav ul li a{
     height: 660px;
     vertical-align: middle;
 }
+#about{
+    margin: 130px 230px;
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about-container .about-description{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+.about-container h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-cards{
+    display: flex;
+    justify-content: space-around;
+    gap:60px;
+}
+#about .about-container .about-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-card p{
+    font-size:20px;
+    color: #757575;
+}
+
+
 
 
 
