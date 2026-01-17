@@ -8,42 +8,68 @@
         .container{
             display: grid;
             grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 150px);
             gap: 3px;
         }
         img{
             width: 100%;
             height: 100%;
         }
+        .big-layout{
+            grid-column: span 6;
+            grid-row: span 2;
+        }
+        .normal-layout{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .lomba-layout{
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        @media screen and (max-width: 768px){
+            .container{
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="">
+        <div class="big-layout">
             <img src = "gallery_images/A.jpg" alt = "Image A">
         </div>
-        <div class="">
+        <div class="normal-layout">
             <img src = "gallery_images/B.jpg" alt = "Image B">
         </div>
-        <div class="">
+        <div class="normal-layout">
             <img src = "gallery_images/C.jpg" alt = "Image C">
         </div>
-        <div class="">
+        <div class="lomba-layout">
             <img src = "gallery_images/D.jpg" alt = "Image D">
         </div>
-        <div class="">
+        <div class="lomba-layout">
             <img src = "gallery_images/E.jpg" alt = "Image E">
         </div>
-        <div class="">
+        <div class="normal-layout">
             <img src = "gallery_images/F.jpg" alt = "Image F">
         </div>
         <div class="">
             <img src = "gallery_images/G.jpg" alt = "Image G">
         </div>
         <div class="">
-            <img src = "gallery_images/H.jpg" alt = "Image H">
+            <img src = "gallery_images/G.jpg" alt = "Image G">
+        </div>
+        
+        <div class="normal-layout">
+            <img src = "gallery_images/I.jpg" alt = "Image I">
         </div>
         <div class="">
-            <img src = "gallery_images/I.jpg" alt = "Image I">
+            <img src = "gallery_images/G.jpg" alt = "Image G">
+        </div>
+        <div class="">
+            <img src = "gallery_images/G.jpg" alt = "Image G">
         </div>
     </div>
     
